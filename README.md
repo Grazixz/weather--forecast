@@ -26,3 +26,18 @@ Desenvolvido como parte dos meus estudos sobre consumo de APIs REST com Java 21.
   - Descrição do tempo (ex: "parcialmente nublado")
 
 ---
+
+---
+
+## ▹ Como executar
+
+1. Clone o repositório:
+   
+   ```bash
+   git clone https://github.com/Grazixz/weather--forecast
+
+⚠️OBS:
+- Precisa modificar a classe **ExchangenerateApi**, pegue uma key no [**site da API**](https://www.weatherapi.com/) e altera o atributo **key** da classe;
+- Precisa implementar a dependência do gson, que está na pasta **dependences**;
+
+---
