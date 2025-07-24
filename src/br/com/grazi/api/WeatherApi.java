@@ -10,6 +10,6 @@ public class WeatherApi {
     }
 
     public void updateUrl(String local){
-        urlBase = "http://api.weatherapi.com/v1/current.json?" + key.getKey() + local + "&lang=pt";
+        urlBase = "http://api.weatherapi.com/v1/current.json?key=" + key.getKey() + "&q=" + local + "&lang=pt";
     }
 }
